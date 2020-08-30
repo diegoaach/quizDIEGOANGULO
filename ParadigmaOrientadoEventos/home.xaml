@@ -1,0 +1,42 @@
+﻿<Page x:Class="ParadigmaOrientadoEventos.home"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ParadigmaOrientadoEventos"
+      mc:Ignorable="d" 
+      d:DesignHeight="365" d:DesignWidth="790"
+      Title="home" Background="#FF66D4CE">
+
+    <Grid Background="#FF40E4B7">
+        <TextBox Name="txtGames" HorizontalAlignment="Left" Height="273" Margin="360,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="409" IsReadOnly="True" />
+        <Label Content="Game" HorizontalAlignment="Left" Margin="53,12,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox Name="txtGameName" HorizontalAlignment="Left" Margin="124,20,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" MaxLines="1" FontSize="20" KeyDown="txtGameName_KeyDown"/>
+
+        <Label Content="Games" HorizontalAlignment="Left" Margin="541,12,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="cbxGenre" HorizontalAlignment="Left" Margin="124,67,0,0" VerticalAlignment="Top" Width="180" >
+            <ComboBoxItem>
+                Open World
+            </ComboBoxItem>
+            <ComboBoxItem>
+                First Person Shooter
+            </ComboBoxItem>
+            <ComboBoxItem>
+                Sports
+            </ComboBoxItem>
+            <ComboBoxItem>
+                Adventure
+            </ComboBoxItem>
+        </ComboBox>
+        <Label Content="Genre" HorizontalAlignment="Left" Margin="53,65,0,0" VerticalAlignment="Top"/>
+        <Calendar Name="calReleaseDate" HorizontalAlignment="Left" Margin="120,94,0,0" VerticalAlignment="Top" Height="152" Width="184" IsTodayHighlighted="False">
+            <Calendar.Style>
+                <Style/>
+            </Calendar.Style>
+        </Calendar>
+        <Label Content="Release date" HorizontalAlignment="Left" Margin="38,157,0,0" VerticalAlignment="Top"/>
+        <CheckBox Name="ckbBuyGame" Content="Will buy" HorizontalAlignment="Left" Margin="120,271,0,0" VerticalAlignment="Top"  Click="ckbBuyGame_Click" />
+        <Button Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="124,319,0,0" VerticalAlignment="Top" Width="120" Click="btnSave_Click" />
+
+    </Grid>
+</Page>

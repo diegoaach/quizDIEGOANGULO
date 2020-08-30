@@ -9,11 +9,11 @@
       Title="home" Background="#FF66D4CE">
 
     <Grid Background="#FF40E4B7">
-        <TextBox Name="txtGames" HorizontalAlignment="Left" Height="273" Margin="360,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="409" IsReadOnly="True" />
+        <TextBox Name="txtGames" HorizontalAlignment="Left" Height="273" Margin="360,38,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="409" IsReadOnly="True" />
         <Label Content="Game" HorizontalAlignment="Left" Margin="53,12,0,0" VerticalAlignment="Top" FontSize="20"/>
         <TextBox Name="txtGameName" HorizontalAlignment="Left" Margin="124,20,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" MaxLines="1" FontSize="20" KeyDown="txtGameName_KeyDown"/>
 
-        <Label Content="Games" HorizontalAlignment="Left" Margin="541,12,0,0" VerticalAlignment="Top"/>
+        <Label Content="Games" HorizontalAlignment="Left" Margin="541,4,0,0" VerticalAlignment="Top"/>
         <ComboBox Name="cbxGenre" HorizontalAlignment="Left" Margin="124,67,0,0" VerticalAlignment="Top" Width="180" >
             <ComboBoxItem>
                 Open World
@@ -37,6 +37,7 @@
         <Label Content="Release date" HorizontalAlignment="Left" Margin="38,157,0,0" VerticalAlignment="Top"/>
         <CheckBox Name="ckbBuyGame" Content="Will buy" HorizontalAlignment="Left" Margin="120,271,0,0" VerticalAlignment="Top"  Click="ckbBuyGame_Click" />
         <Button Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="124,319,0,0" VerticalAlignment="Top" Width="120" Click="btnSave_Click" />
+        <Button Name="btnLogout" Content="LogOut" HorizontalAlignment="Left" Margin="677,319,0,0" VerticalAlignment="Top" Click="btnLogout_Click"/>
 
     </Grid>
 </Page>

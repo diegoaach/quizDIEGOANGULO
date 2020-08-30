@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Diego\\Documents\\UPB\\II Semestre\\Paradigmas de Programacion\\VisualStudio\\ParadigmaOrientadoEventos\\ParadigmaOrientadoEventos.csproj",
+      "projectUniqueName": "C:\\Users\\Diego\\Documents\\UPB\\II Semestre\\Paradigmas de Programacion\\Git\\Quiz\\quizDIEGOANGULO\\ParadigmaOrientadoEventos\\ParadigmaOrientadoEventos.csproj",
       "projectName": "ParadigmaOrientadoEventos",
-      "projectPath": "C:\\Users\\Diego\\Documents\\UPB\\II Semestre\\Paradigmas de Programacion\\VisualStudio\\ParadigmaOrientadoEventos\\ParadigmaOrientadoEventos.csproj",
+      "projectPath": "C:\\Users\\Diego\\Documents\\UPB\\II Semestre\\Paradigmas de Programacion\\Git\\Quiz\\quizDIEGOANGULO\\ParadigmaOrientadoEventos\\ParadigmaOrientadoEventos.csproj",
       "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Diego\\Documents\\UPB\\II Semestre\\Paradigmas de Programacion\\VisualStudio\\ParadigmaOrientadoEventos\\obj\\",
+      "outputPath": "C:\\Users\\Diego\\Documents\\UPB\\II Semestre\\Paradigmas de Programacion\\Git\\Quiz\\quizDIEGOANGULO\\ParadigmaOrientadoEventos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -95,5 +95,12 @@ namespace ParadigmaOrientadoEventos
         {
             ckbBuyGame.IsChecked = true;
         }
+
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow home = (MainWindow)Window.GetWindow(this);
+            home.frameMain.NavigationService.Navigate(new Login());
+            
+        }
     }
 }

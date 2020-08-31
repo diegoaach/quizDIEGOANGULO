@@ -91,10 +91,7 @@ namespace ParadigmaOrientadoEventos
         }
         
 
-        private void ckbBuyGame_Click(object sender, RoutedEventArgs e)
-        {
-            ckbBuyGame.IsChecked = true;
-        }
+       
 
         private void btnLogout_Click(object sender, RoutedEventArgs e)
         {

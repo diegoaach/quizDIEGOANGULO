@@ -38,7 +38,7 @@
             </Calendar.Style>
         </Calendar>
         <Label Content="Release date" HorizontalAlignment="Left" Margin="38,157,0,0" VerticalAlignment="Top"/>
-        <CheckBox Name="ckbBuyGame" Content="Will buy" HorizontalAlignment="Left" Margin="120,271,0,0" VerticalAlignment="Top"   />
+        <CheckBox Name="ckbBuyGame" Content="Will buy" HorizontalAlignment="Left" Margin="120,271,0,0" VerticalAlignment="Top"    />
         <Button Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="124,319,0,0" VerticalAlignment="Top" Width="120" Click="btnSave_Click" />
         <Button Name="btnLogout" Content="LogOut" HorizontalAlignment="Left" Margin="677,319,0,0" VerticalAlignment="Top" Click="btnLogout_Click"/>
 
